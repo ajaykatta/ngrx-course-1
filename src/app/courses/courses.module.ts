@@ -26,7 +26,6 @@ import {compareCourses, Course} from './model/course';
 
 import {compareLessons, Lesson} from './model/lesson';
 
-
 export const coursesRoutes: Routes = [
   {
     path: '',
@@ -36,6 +35,7 @@ export const coursesRoutes: Routes = [
   {
     path: ':courseUrl',
     component: CourseComponent
+
   }
 ];
 
